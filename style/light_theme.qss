@@ -1,0 +1,93 @@
+/* Global */
+QMainWindow {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
+}
+QWidget {
+    color: #222222;
+}
+
+/* Menu latéral */
+QListWidget {
+    background-color: #ffffff;
+    border-right: 4px solid #2e2f30ff;
+    padding: 5px;
+}
+
+QListWidget::item {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+QListWidget::item:selected {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Boutons */
+QPushButton {
+    background-color: #0d6efd;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #0b5ed7;
+}
+
+QPushButton:disabled {
+    background-color: #adb5bd;
+    color: #f8f9fa;
+}
+
+/* Champs de saisie */
+QLineEdit, QComboBox, QDateEdit, QTextEdit {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 5px;
+    color: #222222;
+}
+
+/* Labels */
+QLabel {
+    color: #222222;
+    font-weight: normal;
+}
+    
+/* Titres */
+QLabel[heading="true"] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+/* Tableaux */
+QTableWidget {
+    border: 1px solid #dee2e6;
+    gridline-color: #dee2e6;
+    color: #222222;
+}
+
+QHeaderView::section {
+    background-color: #e9ecef;
+    padding: 4px;
+    border: 1px solid #dee2e6;
+    font-weight: bold;
+    color: #222222;
+}
+
+/* Graphiques ou panels */
+QFrame#Card {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin: 10px;
+    color: #222222;
+}
